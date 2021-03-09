@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+A	follow.h	/^	double a, A;$/;"	m	struct:svec
+FOLLOW_H	follow.h	2;"	d
+PI	follow.c	3;"	d	file:
+a	follow.h	/^	double a, A;$/;"	m	struct:svec
+atan2	follow.c	/^atan2(double y, double x)$/;"	f	file:
+c	follow.h	/^	struct vec3 c;$/;"	m	struct:star_path	typeref:struct:star_path::vec3
+dir_now	follow.c	/^dir_now(struct star_path p, int time)$/;"	f
+lon	follow.h	/^	double lon;$/;"	m	struct:star_path
+n	follow.h	/^	struct vec3 n, w, v;$/;"	m	struct:star_path	typeref:struct:star_path::vec3
+new_star_path	follow.c	/^new_star_path(struct star_path *p, double a, double A, double lon, int zero)$/;"	f
+r	follow.h	/^	double r;$/;"	m	struct:star_path
+s	follow.h	/^	struct svec s;$/;"	m	struct:star_path	typeref:struct:star_path::svec
+star_now	follow.c	/^star_now(struct star_path p, int time)$/;"	f
+star_path	follow.h	/^struct star_path {$/;"	s
+svec	follow.h	/^struct svec {$/;"	s
+svec_to_vec3	follow.c	/^void svec_to_vec3(struct svec v, struct vec3 *u)$/;"	f
+v	follow.h	/^	struct vec3 n, w, v;$/;"	m	struct:star_path	typeref:struct:star_path::
+vec3	follow.h	/^struct vec3 {$/;"	s
+vec3_to_svec	follow.c	/^vec3_to_svec(struct vec3 v, struct svec *u)$/;"	f
+w	follow.h	/^	struct vec3 n, w, v;$/;"	m	struct:star_path	typeref:struct:star_path::
+x	follow.h	/^	double x, y, z;$/;"	m	struct:vec3
+y	follow.h	/^	double x, y, z;$/;"	m	struct:vec3
+z	follow.h	/^	double x, y, z;$/;"	m	struct:vec3
+zerotime	follow.h	/^	int zerotime;$/;"	m	struct:star_path
