@@ -1,5 +1,8 @@
 #ifndef FOLLOW_H
 #define FOLLOW_H
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /* Cartesian coordinates */
 struct vec3 {
@@ -86,4 +89,7 @@ struct svec star_now(struct star_path, int);
  * The current tangent in spherical coordinates
  */
 struct svec dir_now(struct star_path, int);
+#ifdef __cplusplus
+}
+#endif
 #endif /* FOLLOW_H */

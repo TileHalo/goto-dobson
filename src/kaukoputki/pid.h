@@ -1,5 +1,8 @@
 #ifndef PID_H
 #define PID_H
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /* The PID-controller used to drive motors
  *
@@ -41,4 +44,7 @@ void tune_pid(struct pid *, double, double, double);
 double run_pid(struct pid *, double, int);
 
 
+#ifdef __cplusplus
+}
+#endif
 #endif /* end of include guard: PID_H */
