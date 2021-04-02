@@ -32,6 +32,8 @@ void setup() {
 void loop() {
   if (state) {
     star_follower();
+  } else if (state >> 1) {
+    /* Do nothing, requires seeking */
   }
   if (check_follow()) {
     state = abs(state  - 1);
