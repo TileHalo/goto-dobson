@@ -1,5 +1,7 @@
 #include <Stepper.h>
 #include "follow.h"
+#include "pid.h"
+
 
 void setup() {
   // put your setup code here, to run once:
